@@ -21,7 +21,7 @@ function ESP.AddESP(
     local ESPBillboardGui = Instance.new("BillboardGui")
     ESPBillboardGui.Parent = workspace:FindFirstChild(folderName)
     ESPBillboardGui.Adornee = adornee
-    ESPBillboardGui.Size = UDim2.new(0, 20, 0, 20)
+    ESPBillboardGui.Size = UDim2.new(0, 60, 0, 60)
     ESPBillboardGui.StudsOffset = Vector3.new(0, 3, 0)
     ESPBillboardGui.AlwaysOnTop = true
 
