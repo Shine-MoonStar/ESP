@@ -28,7 +28,7 @@ function ESP.AddESP(
     ESPBillboardGui.Name = adornee.Name .. "_Gui"
     ESPBillboardGui.Parent = folder
     ESPBillboardGui.Adornee = adornee
-    ESPBillboardGui.Size = UDim2.new(0, 60, 0, 60)
+    ESPBillboardGui.Size = UDim2.new(0, 80, 0, 80)
     ESPBillboardGui.StudsOffset = Vector3.new(0, 3, 0)
     ESPBillboardGui.AlwaysOnTop = true
 
